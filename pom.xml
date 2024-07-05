@@ -484,7 +484,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.5</version>
+            <version>1.7.36</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -567,7 +567,7 @@
         <profile>
             <id>Java11</id>
             <properties>
-                <testcase.groups.excluded></testcase.groups.excluded>
+                <testcase.groups.excluded/>
             </properties>
         </profile>
         <profile>
